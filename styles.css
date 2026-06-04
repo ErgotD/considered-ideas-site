@@ -156,9 +156,14 @@ h1 .brand-mark {
 }
 
 @media (max-width: 480px) {
+  .shots-row {
+    gap: 10px;
+  }
+
   .shots-row img {
-    width: 70%;
-    max-width: 280px;
+    width: calc(50% - 5px);
+    max-width: none;
+    border-radius: 20px;
   }
 }
 
