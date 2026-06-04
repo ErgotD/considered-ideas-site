@@ -270,25 +270,57 @@ footer a:hover {
   text-decoration-color: var(--accent);
 }
 
-@media (max-width: 480px) {
+/* Tablet-and-down: ease the hero size below the desktop 3.25rem before
+   the narrow-phone breakpoint takes over. */
+@media (max-width: 720px) {
   .container {
-    padding: 24px 20px 80px;
+    padding: 64px 24px 72px;
   }
 
   h1 {
-    font-size: 1.65rem;
+    font-size: 2.5rem;
+    line-height: 1.08;
+    letter-spacing: -0.022em;
+    margin-bottom: 28px;
   }
 
-  h2 {
+  .hero {
+    margin-bottom: 72px;
+  }
+
+  .hero .lead {
     font-size: 1.15rem;
-    margin: 40px 0 10px;
+  }
+}
+
+/* Narrow-phone: bring the hero down further so "Considered Ideas Ltd"
+   sits comfortably on a single line at iPhone-SE widths, and tighten
+   vertical rhythm so the page reads without excessive scrolling. */
+@media (max-width: 480px) {
+  .container {
+    padding: 48px 20px 64px;
   }
 
-  nav {
-    margin-bottom: 32px;
+  h1 {
+    font-size: 2rem;
+    line-height: 1.08;
+    letter-spacing: -0.02em;
+    margin-bottom: 24px;
   }
 
-  nav .brand {
-    font-size: 1.2rem;
+  .hero {
+    margin-bottom: 56px;
+  }
+
+  .hero .lead {
+    font-size: 1.05rem;
+  }
+
+  section {
+    margin-bottom: 44px;
+  }
+
+  .app-shots {
+    margin-top: 40px;
   }
 }
