@@ -98,17 +98,18 @@ h2 {
   margin-bottom: 96px;
 }
 
-/* Persimmon brand mark sitting inline to the left of the h1. Mirrors the
-   small persimmon disc used as the In the Retelling app-icon brand mark.
-   Decorative only; hidden from screen readers via aria-hidden on the span. */
+/* Persimmon brand mark sitting inline to the left of the h1. The shape is
+   the vesica piscis petal used in the In the Retelling daily session arc,
+   filled in persimmon, with a small persimmon dot baseline-aligned to its
+   foot. SVG inherits its fill from this rule so the dark-mode accent shift
+   carries over automatically. Decorative only; aria-hidden on the svg. */
 h1 .brand-mark {
   display: inline-block;
-  width: 0.42em;
-  height: 0.42em;
-  border-radius: 50%;
-  background: var(--accent);
-  margin-right: 0.42em;
-  vertical-align: 0.14em;
+  height: 0.9em;
+  width: auto;
+  margin-right: 0.3em;
+  vertical-align: -0.08em;
+  fill: var(--accent);
 }
 
 .hero .lead {
