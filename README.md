@@ -45,4 +45,4 @@ DNS is owned by the registrar where the domain is held; the GitHub Pages side ne
 
 ## Status
 
-v0 scaffold. Legal footer carries TODO placeholders for the registered office address and Companies House number; both must be filled in before the site goes live so Apple Developer review and any visitor sees a consistent legal entity. The consultancy paragraph is a holding statement; it can be expanded once the offer is concrete.
+Live at consideredideas.com. The legal footer carries the registered office (66 Paul Street, London EC2A 4NA) and Company No. 17258515, consistent with the App Store listing and the support site. The consultancy paragraph is a holding statement; it can be expanded once the offer is concrete.
