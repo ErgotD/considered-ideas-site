@@ -176,17 +176,14 @@ h1 .brand-mark {
   margin: 0;
 }
 
-/* App screenshots: two iPhone screen grabs from In the Retelling shown
-   side by side as a before-and-after pair. Sourced from the project's
-   marketing/screenshots folder, captured 2026-06-01 against the post-
-   rename "In the Retelling" branding. */
+/* App screenshots: two iPhone screen grabs shown side by side for each
+   product entry. Sourced from each app project's marketing screenshots. */
 .app-shots {
   margin: 56px 0 0;
 }
 
-/* A second app's heading sits directly below the previous app's
-   screenshots; give it room so the two app entries read as distinct
-   blocks rather than running together. */
+/* The next app's heading sits directly below the previous app's screenshots;
+   give it room so each product entry reads as a distinct block. */
 .app-shots + h2 {
   margin-top: 56px;
 }
