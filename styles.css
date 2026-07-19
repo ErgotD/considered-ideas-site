@@ -162,6 +162,7 @@ a:hover {
 .suite-wordmark span {
   font-size: 1.5rem;
   line-height: 1;
+  transform: translateY(1px);
 }
 
 .intro-copy {
