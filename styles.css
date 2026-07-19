@@ -153,9 +153,9 @@ a:hover {
 }
 
 .suite-wordmark .brand-mark {
-  width: 34px;
+  width: 40px;
   height: 40px;
-  fill: var(--accent);
+  object-fit: contain;
   flex: 0 0 auto;
 }
 
